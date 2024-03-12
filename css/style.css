@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: #fff;
+    background-size: cover;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    border: 1px solid black;
+}
+
+.redes {
+    margin: 0;
+    align-items: center;
+    z-index: 100%;
+    display: flex;
+}
+
+i {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+    transition: .3s ease;
+}
+
+.fa-whatsapp:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 0 0 15px green,
+                0 0 45px green,
+                0 0 75px green,
+                0 0 115px green;
+}
+
+.fa-instagram:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 0 15px purple,
+                0 0 45px purple,
+                0 0 75px purple,
+                0 0 115px purple;
+}
+
+.fa-facebook:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 15px blue,
+                0 0 45px blue,
+                0 0 75px blue,
+                0 0 115px blue;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #47b8b8;
+    border-radius: 6px;
+}
+
+.imagencentral {
+    height: 413px;
+    background: #47b8b8;
+    display: block;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    background: #47b8b8;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Mision {
+    display: flex;
+    height: 50vh;
+    background: #47b8b8;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10%;
+    border-radius: 6px;
+}
+
+.Visión {
+    display: flex;
+    height: 50vh;
+    background: #47b8b8;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10%;
+    border-radius: 6px;
+}
+
+.contensei {
+    display: flex;
+    height: 30vh;
+    background: #47b8b8;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.contensei a {
+    text-decoration: none;
+    color: black;
+}
+
+.contensei a:hover {
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 58px 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
